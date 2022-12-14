@@ -90,7 +90,12 @@ li {
 .highlightBox {
   background-color: var(--bg-highlight);
   border-radius: 4px;
-  margin: 0px 12px 12px 12px;
+}
+@media (min-width: 768px) {
+  #ndaBox,
+  .highlightBox{
+    margin: 0px 12px 12px 12px;
+  }
 }
 #ndaBox .container,
 .highlightBox .container {
@@ -103,6 +108,10 @@ li {
 
 .lg-quote{
   font-size: 1.2rem;
+} @media (max-width:768px) {
+  .lg-quote{
+    font-size: 1rem;
+  }
 }
 
 #copyText{
@@ -375,6 +384,10 @@ nav[data-toggle="toc"] {
   z-index: auto;
 }
 @media (max-width: 768px) {
+  /* section{
+    padding-left: 8px;
+    padding-right: 8px;
+  } */
   nav[data-toggle="toc"] {
     display: none; }
 }
@@ -522,13 +535,18 @@ h2[id]::before {
   z-index: 0; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 2em 0; } }
+      padding: 2em 2em; } }
 
 .ftco-footer {
   font-size: 16px;
   background: #1f1f1f;
   padding: 7em 0 1em 0;
   z-index: 0; }
+  @media (max-width:768px) {
+    .ftco-footer{
+      padding: 4em 1em 1em 1em;
+    }
+  }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
