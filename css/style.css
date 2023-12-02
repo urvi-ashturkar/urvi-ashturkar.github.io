@@ -87,7 +87,8 @@ li {
   color: var(--primary) !important; }
 
 #ndaBox,
-.highlightBox {
+.highlightBox,
+.noteBox {
   background-color: var(--bg-highlight);
   border-radius: 4px;
 }
