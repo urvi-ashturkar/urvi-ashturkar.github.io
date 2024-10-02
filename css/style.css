@@ -341,6 +341,10 @@ li {
   position: relative;
 }
 
+.project-section {
+  padding-bottom: 0 !important;
+}
+
 .gallery-container {
   padding: 2em 2em 0 2em;
 }
