@@ -4,7 +4,7 @@
   --bg-highlight: #fcf8e3;
   --bg-light: #f8f9fa;
   --bg-secondary: #ffd615;
-  --highlight-mark: #fbaf61;
+  --highlight-mark: #ffd2a4;
 }
 
 *,
@@ -104,6 +104,14 @@ li {
   padding-bottom: 1rem;
 }
 #ndaBox mark{
+  background-color: var(--highlight-mark);
+}
+
+.bg-yellow {
+  background-color: var(--bg-highlight);
+}
+
+.bg-orange {
   background-color: var(--highlight-mark);
 }
 
@@ -360,6 +368,18 @@ li {
 
 .section.first {
   margin-top: -24em;
+}
+
+.text-left {
+  text-align: start;
+}
+
+.text-right {
+  text-align: end;
+}
+
+.border-left {
+  border-left: 1px solid black;
 }
 
 .container.portfolio-item-content {
