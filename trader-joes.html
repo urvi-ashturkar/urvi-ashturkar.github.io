@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Urvi Ashturkar's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style media="screen">
+      section {
+        margin-bottom: 50px;
+      }
+    </style>
+
+    <!-- Google Analytics tag (gtag.js) for INST710 demo -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPX8NT30JN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZPX8NT30JN');
+    </script>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#toc">
+    <nav class = "navbar sticky-top navbar-expand-lg navbar-light" id = "ftco-navbar" style = "background-color: #FEFEFE;">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Urvi Ashturkar</a>
+	      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse justify-content-end" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html#work" class="nav-link">See my work</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Get to know me</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/tj-cover.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-end justify-content-center">
+          <div class="col-md-9 ftco-animate pt-5 pb-5 text-center">
+            <h1>Trader Joe's Grocery Store</h1>
+            <h3 data-toc-skip>Website Redesign</h3>
+            <div class="row mt-5 justify-content-center">
+              <div class="col-4" style="text-align: left;">
+                <p>Visual Design</p>
+                <p>Timeline: February - March 2025</p>
+              </div>
+              <div class="col-5" style="text-align: right;">
+                <p>Course Project</p>
+                <p>Role: Design system &#x2022; low and high fidelity wireframing &#x2022; interactive prototyping.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-3">
+          <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+        </div>
+
+        <div class="col" style="max-width: 600px;">
+          <section>
+            <h2 id="opportunity" class="mb-3">Opportunity</h2>
+            <p>Trader Joe's grocery chain has a strong visual identity across its stores, packaging and merchandise, but <mark>the website does not have the same cohesiveness of aesthetic.</mark> </p>
+            <!-- <p>The mobile view is a simple reflow that <mark>does not optimize content organization for a smaller, vertical screen.</mark> </p> -->
+
+            <div class="row">
+                <figure class="figure">
+                    <img src="images/tj-physical-look.png" class="figure-img img-fluid" alt="Visuals from Trader Joe's signage and packaging.">
+                    <!-- <figcaption class="figure-caption">Concept #1: Venn diagrams</figcaption> -->
+                </figure>
+                <figure class="figure">
+                    <img src="images/tj-original-web-look.png" class="figure-img img-fluid" alt="Screenshots from Trader Joe's official website.">
+                    <figcaption class="figure-caption">In spite of the use of on-brand illustrations and a paper-like treatment, the website is a weak link in Trader Joe's visual identity.</figcaption>
+                </figure>
+            </div>
+
+            <p>The goal:</p>
+            <h4 data-toc-skip class="mb-4">
+                To reproduce the experienced aesthetic of visiting Trader Joe's, on a digital interface.
+            </h4>
+
+            <p>Note that this website is <mark>NOT an ecommerce platform.</mark> It is only informational and for customer engagement.</p>
+          </section>
+
+          <section>
+            <h2 id="design-solution" class="mb-3">Design Solution</h2>
+
+            <p>I designed four views - a landing page, a product catalog, a "discover" page and a web version of the "Fearless Flyer" - Trader Joe's unique periodical.</p>
+
+            <video class="mb-4" muted="" controls loop="" width="100%"> <source src="images/tj-prototype.mp4" alt="Interactive prototype of my redesign." type="video/mp4"> </video>
+
+            <a href="images/tj-hi-fi-all.png" target="_blank">
+                <figure class="figure">
+                    <img src="images/tj-hi-fi-all.png" class="figure-img img-fluid" alt="High fidelity wireframes of all four views.">
+                    <figcaption class="figure-caption">High fidelity wireframes of all four views. Click to enlarge.</figcaption>
+                </figure>
+            </a>
+          </section>
+
+          <section>
+            <h2 id="the-feel" class="mb-3">The Feel</h2>
+            <div class="row row-cols-2 g-4 mb-4">
+                <div class="col">
+                  <div class="card bg-yellow h-100">
+                    <div class="card-body">
+                      <p class="card-text text-center" style="color:black;">Discovery</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card bg-yellow h-100">
+                    <div class="card-body">
+                      <p class="card-text text-center" style="color:black;">Visual Pleasure</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card bg-yellow h-100">
+                    <div class="card-body">
+                      <p class="card-text text-center" style="color:black;">Community</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-yellow h-100">
+                      <div class="card-body">
+                        <p class="card-text text-center" style="color:black;">Simplicity</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <p>From desk research and observation in stores, I found that despite being a national chain, each Trader Joe's location is positioned as a <mark>local neighborhood grocer</mark>. Stores and crew members feel <mark>warm and cozy</mark>. Because of ever-changing products and artwork, each shopping trip is like an <mark>expedition of discovery</mark> rather than a chore. Shopping is <mark>easy and efficient</mark> because choices are not overwhelming, stores are not big and aisles are low so shoppers can see everything they need.</p>
+          </section>
+
+          <section>
+            <h2 id="typography" class="mb-3">Typography</h2>
+            <p>
+                Primary type family: Alegreya <br>
+                Serif typeface referencing print, optimized for digital readability.
+            </p>
+
+            <p>
+                Accent typeface: Chalk-hand-lettering-shaded_dem <br>
+                For accent headings with a chalkboard penmanship effect.
+            </p>
+
+            <p>
+                Accent typeface: Gorton Digital <br>
+                For speech blurbs with remixed Victorian cartoons. <br><br>
+            </p>
+
+            <img src="images/tj-typescale.png" class="img-fluid mb-4" alt="Typographical scale showing the use of the primary and accent typefaces."> <br><br>
+
+            <p>These are intended for use with the typefaces in the branding for Trader Joe's and the Fearless Flyer, which I will not change.</p>
+
+            <br>
+
+            <a href="images/tj-types-original.png" target="_blank">
+                <figure class="figure">
+                    <img src="images/tj-types-original.png" class="figure-img img-fluid" alt="Screenshots from Trader Joe's official website.">
+                    <figcaption class="figure-caption">The variety of typefaces used on the existing website. Click to enlarge.</figcaption>
+                </figure>
+            </a>
+
+            <p>
+                The existing website uses at least four typefaces of different styles, appearing cluttered. My choice of Alegreya allows me to have almost all of my text in a single type family. Alegreya's versatility of styles and letterform variations lends the right amount of personality.
+            </p>
+          </section>
+
+          <section>
+            <h2 id="color-and-imagery" class="mb-3">Color and Imagery</h2>
+
+            <img src="images/tj-palette.png" class="img-fluid mb-4" alt="Color swatches with a red, a parchment cream, a paper white and an inky black."> <br><br>
+
+            <p>My color palette is minimal to reflect simplicity and to highlight Trader Joe's colorful packaging and artwork. The primary red is derived from Trader Joe's <mark>branding</mark> and adjusted for optimal contrast as a background for text. The neutrals reference <mark>paper and ink</mark>. A major color block will come from the hero mural. Here, the teal with the brand red is creating a color scheme similar to complementary.</p>
+
+            <p>Image treatments include ink or pigmented wood block cut style illustrations, chalkboard artwork and Victorian cartoon illustrations remixed with Trader Joe's products.</p>
+
+            <img src="images/tj-imagery.png" class="img-fluid mb-4" alt="Samples of on-brand illustrations."> <br><br>
+
+            <p>The base materials of this interface are card paper, note paper and chalkboard. UI components are styled accordingly.</p>
+
+            <img src="images/tj-materials.png" class="img-fluid mb-4" alt="UI components reflecting physical materials."> <br><br>
+          </section>
+
+          <section>
+            <h2 id="layout" class="mb-3">Layout</h2>
+            <p>The layout for desktop is based on a 12-column 4px grid. I took inspiration from the UIs of exploration games and other websites with exploratory elements.</p>
+
+            <div class="row">
+                <figure class="figure">
+                    <img src="images/tj-inspo-ui.png" class="figure-img img-fluid" alt="Screenshots from Amazon Trail 2, ISPY Treasure Hunt and the Google Arts and Culture page.">
+                    <figcaption class="figure-caption">Inspiration - layouts invoking exploration from Amazon Trail 2, ISPY Treasure Hunt and the Google Arts and Culture page.</figcaption>
+                </figure>
+            </div>
+
+            <p>The pages of the website are laid out spatially to reflect the physical experience of being in a Trader Joe's store. The layout is communicated by directional navigation buttons and push transitions. The artwork in the hero section greets the visitor on arrival like the mural in each store. The Fearless Flyer is on the right of the landing page. The product catalog is on the left and the "discover" page is above.</p>
+
+            <img src="images/tj-spatial.png" class="img-fluid mb-4" alt="A screenshot of the spatial layout showing the landing page in bottom center, the product page on the left, the discover page at top center and the Fearless Flyer on the right."> <br><br>
+
+            <p>Based on the visitor's detected location, the mural will change to represent the town of the nearest Trader Joe's, giving a neighborly feel.</p>
+            <p>The landing page is set up for discovery of new or featured products using interactive illustrations remixed with product images.</p>
+          </section>
+
+          <section>
+            <h2 id="language" class="mb-3">Language</h2>
+            <p>Signage, packaging and articles feature language that is playful, humorous, punny and occasionally uses fancy words.</p>
+            <p>Conversation with crew members is warm, friendly and considerate. Cashiers will ask, <i>"Did you find what you were looking for?"</i></p>
+
+            <img src="images/tj-language.png" class="img-fluid mb-4" alt="Examples of humor and warmth in writing."> <br><br>
+          </section>
+
+          <section>
+            <h2 id="summary" class="mb-3">Summary</h2>
+            <p>The redesign captures the feel of visiting a Trader Joe's store while also introducing a cohesive design system.</p>
+
+            <div class="row row-cols-2 g-4 mb-4">
+                <div class="col">
+                  <div class="card bg-yellow h-100">
+                    <div class="card-header bg-yellow">Discovery</div>
+                    <div class="card-body">
+                        <ul style="list-style-type: circle;">
+                            <li>Peeking illustrations on the landing page for new, seasonal and featured products.</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card bg-yellow h-100">
+                    <div class="card-header bg-yellow">Visual Pleasure</div>
+                    <div class="card-body">
+                        <ul style="list-style-type: circle;">
+                            <li>Mural artwork featured on the landing page</li>
+                            <li>Cohesive typography and layout</li>
+                            <li>Simple color palette to highlight beautiful product packaging</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card bg-yellow h-100">
+                    <div class="card-header bg-yellow">Community</div>
+                    <div class="card-body">
+                        <ul style="list-style-type: circle;">
+                            <li>Mural on the landing page featuring local culture and attractions</li>
+                            <li>Warm language - also done well on the existing website</li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card bg-yellow h-100">
+                        <div class="card-header bg-yellow">Simplicity</div>
+                      <div class="card-body">
+                        <ul style="list-style-type: circle;">
+                            <li>Single-level spatial navigation with clear cues</li>
+                            <li>Minimal color palette</li>
+                            <li>Less content per page</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- <section>
+            <h2 id="learnings" class="mb-3">Learnings</h2>
+
+          </section> -->
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="ftco-footer ftco-footer-2 ftco-section">
+      <div class="container mb-5">
+        <div class="row mb-5">
+          <div class="col-md"></div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <p>Find out <a href="about.html"><span class="footer-link">more about me</span></a> and <a href="index.html#work"><span class="footer-link">see my previous work</span></a>.</p>
+            </div>
+          </div>
+          <div class="col-md"></div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <!-- <p>You can take a peek at some confidential projects too!<br> -->
+              <p>
+              Ping me on <a href="https://www.linkedin.com/in/urvi-ashturkar-459ab31b3/" target="_blank"><span class="footer-link">LinkedIn</span></a> or reach me even faster by email at
+                <span class="footer-link">
+                  <span id="copyText2" data-clipboard-text="urvi.exp@gmail.com">urvi.exp@gmail.com </span>
+                  <i class="bi bi-clipboard" id="copyBtn2" data-clipboard-target="#copyText2" type="button"></i>
+                </span>
+              .</p>
+            </div>
+          </div>
+          <div class="col-md"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+            Copyleft &copy;<script>document.write(new Date().getFullYear());</script>
+            Made by Urvi Ashturkar with alternating inspiration and lack thereof. But mostly with Bootstrap.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- copy email to clipboard -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
+    <script type="text/javascript">
+      new ClipboardJS('#copyBtn');
+      new ClipboardJS('#copyBtn2');
+      new ClipboardJS('#copyText');
+    </script>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js" integrity="sha256-mBCu5+bVfYzOqpYyK4jm30ZxAZRomuErKEFJFIyrwvM=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+  <!-- <script src="js/jquery.easing.1.3.js"></script> -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- <script src="js/jquery.magnific-popup.min.js"></script> -->
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Mouseflow script for INST710 demo -->
+  <script type="text/javascript">
+    window._mfq = window._mfq || [];
+    (function() {
+      var mf = document.createElement("script");
+      mf.type = "text/javascript"; mf.defer = true;
+      mf.src = "//cdn.mouseflow.com/projects/de2ff029-bae0-46d4-9abf-f883ec047d2a.js";
+      document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+  </script>
+
+  </body>
+</html>
