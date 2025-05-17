@@ -663,6 +663,10 @@ h2[id]::before {
     -webkit-box-shadow: 0 0 0 0 rgba(253, 95, 0, 0);
     box-shadow: 0 0 0 0 rgba(253, 95, 0, 0); } }
 
+.w-50 {
+  width: 50%;
+}
+
 .img {
   background-size: cover;
   background-repeat: no-repeat;
